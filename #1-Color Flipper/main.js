@@ -1,7 +1,7 @@
 const colors = [
     "#229954",
     "#2e4053",
-    "#ffc300",
+    "#99e990",
     "#c70039",
     "#900c3e",
     "#40E0D0",
@@ -9,7 +9,10 @@ const colors = [
     "#FFA07A",
     "#2e86c1",
     "#571845",
-    "#FF5733"];
+    "#FF5733",
+    "#632f24",
+    "#6c6c6c",
+    "#FFD700"];
   
 const button = document.getElementById("button");
 const letterColor = document.getElementById("letter_color");
