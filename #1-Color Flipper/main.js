@@ -17,10 +17,21 @@ const colors = [
 const button = document.getElementById("button");
 const letterColor = document.getElementById("letter_color");
 
+/* Random Color - Title */
 button.addEventListener("click", function() {
     let randomNumber = Math.floor(Math.random() * colors.length);
     let randomColors = randomNumber;
 
     document.body.style.background = colors[randomColors];
     letterColor.textContent = colors[randomColors];
+})
+
+/* Change the color with the key "C"*/
+document.addEventListener("keydown", function(event){
+    if(event.key.toLowerCase() === "c"){
+        let randomNumber = Math.floor(Math.random() * colors.length);
+        let randomColors = randomNumber;
+        document.body.style.background = color[randomColors];
+        letterColor.textContent = colors[randomColors];
+    }
 })
