@@ -1,1 +1,1 @@
-Esta es una practica para aprender la metodologia GIT FLOW
+Esta es una practica para aprender el modelo de trabajo GIT FLOW
